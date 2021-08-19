@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Mi hoja de vida</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div id="modal_id" class="modal">
+        <div class="modal-content">
+          <span id="close_modal" class="close">&times;</span>
+          <h3 id="modal_title">Modal title</h3>
+          <p id="modal_text">Modal text</p>
+        </div>
+      </div>
+
+      <div class="left_div">
+        <div class="photo">
+          <img src="itadori.jpg" />
+        </div>
+        <div class="intro_left">
+          <h3 class="left_title">INTRO</h3>
+          <p class="left_desc">What I'm all about</p>
+        </div>
+        <div class="expertise_left">
+          <h3 class="left_title">EXPERTISE</h3>
+          <p class="left_desc">Languages I've worked with</p>
+        </div>
+        <div class="skills_left">
+          <h3 class="left_title">SKILLS</h3>
+          <p class="left_desc">Progress bars, anyone?</p>
+        </div>
+      </div>
+
+      <div class="right_div">
+        <div class="name">
+          <p
+            style="
+              color: orangered;
+              font-size: 50px;
+              margin: 0%;
+              padding-left: 3%;
+              padding-top: 15%;
+            "
+          >
+            <b><span style="color: gray">Felipe</span></b> <br />
+            <b>Sanchez</b>
+          </p>
+          <div style="display: flex">
+            <div style="width: 70%">
+              <h4 style="color: gray; padding-left: 5%">Software Engineer</h4>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                width: 30%;
+                justify-content: center;
+                margin-right: 5%;
+              "
+            >
+              <a
+                class="social_network_logo"
+                href="https://github.com/SanchezFelipe01"
+              >
+                <img src="GitHub-Mark/PNG/GitHub-Mark-32px.png" />
+              </a>
+              <a
+                class="social_network_logo"
+                href="https://www.linkedin.com/in/luis-felipe-sanchez-vega-40b639205/"
+              >
+                <img
+                  class="social_network_logo"
+                  src="LinkedIn-Logos/linkedin.png"
+                />
+              </a>
+              <a
+                class="social_network_logo"
+                href="https://twitter.com/github/status/1425505817827151872"
+              >
+                <img class="social_network_logo" src="signo-de-twitter.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="personal_info">
+          <div class="item_personal_info">
+            <p class="text_item_personal_info">
+              Location <br />
+              <span class="text_item_personal_info_span">Roldanillo, Col</span>
+            </p>
+          </div>
+          <div class="item_personal_info">
+            <p class="text_item_personal_info">
+              Phone <br />
+              <span class="text_item_personal_info_span">123-4567</span>
+            </p>
+          </div>
+          <div class="item_personal_info">
+            <p class="text_item_personal_info">
+              Web <br />
+              <span class="text_item_personal_info_span"
+                >felipesanchez.com</span
+              >
+            </p>
+          </div>
+          <div class="item_personal_info">
+            <p class="text_item_personal_info">
+              Email <br />
+              <span class="text_item_personal_info_span">felipe@gmail.com</span>
+            </p>
+          </div>
+        </div>
+        <div class="intro_right">
+          <p style="font-size: 16px">
+            Hi! I'm Felipe Sanchez, currently a 4th year student of Software
+            Engineering at
+            <span style="color: orangered">Universidad Icesi.</span>
+            My topics of my interest are Software Architecture and Artificial
+            Intelligence, although I also enjoy working on web development and
+            Mobile development. <br />
+            <br />
+            I like to practice martial arts, and do exercise in general. I'm
+            also a food lover even if I am not that good at the kitchen. I have
+            got a cat but I prefer dogs though.
+          </p>
+        </div>
+        <div class="expertise_right">
+          <div class="row">
+            <div class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span style="color: orangered">01</span> Java</b>
+                </h4>
+              </div>
+              <div class="description">
+                <p class="description_text">
+                  It was the first language I've learnt and I think that's why I
+                  have a special affection for it. The college offer more than
+                  three courses where java is used.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span style="color: orangered">02</span> C#</b>
+                </h4>
+              </div>
+              <div class="description">
+                <p class="description_text">
+                  The second programming language I met, it was very easy to
+                  learn because it's way similar to java, at least in the
+                  syntaxis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span style="color: orangered">03</span> SQL</b>
+                </h4>
+              </div>
+              <div class="description">
+                <p class="description_text">
+                  Every software engineer must know about databases, or at least
+                  have minimal knowledge about it. I have to admit that
+                  databases are not my strengh.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span style="color: orangered">04</span> Python</b>
+                </h4>
+              </div>
+              <div class="description">
+                <p class="description_text">
+                  Many people say that python is a great first language to
+                  learn, well... I learnt it when I was in my 7th semester and I
+                  love how friendly it is. Not to mention that it perfect for
+                  IA.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span style="color: orangered">05</span> Html, Css, Js</b>
+                </h4>
+              </div>
+              <div class="description">
+                <p class="description_text">
+                  Right now, I'm taking an elective course called Advanced Web
+                  programming and, as you might already guess, these three
+                  language are the basics.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span style="color: orangered">06</span> React</b>
+                </h4>
+              </div>
+              <div class="description">
+                <p class="description_text">
+                  While I'm still new when talking about web programming, I
+                  already have to deal with React js in another course... But,
+                  to be honest, it seems pretty nice.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills_right">
+          <div class="row2">
+            <div id="modal1" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span class="title_text_span">80%</span> JAVA</b>
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="80" max="100">80%</progress>
+              </div>
+            </div>
+            <div id="modal2" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b
+                    ><span class="title_text_span">70%</span> VISUAL PARADIGM</b
+                  >
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="70" max="100">70%</progress>
+              </div>
+            </div>
+          </div>
+          <div class="row2">
+            <div id="modal3" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span class="title_text_span">70%</span> IA</b>
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="70" max="100">70%</progress>
+              </div>
+            </div>
+            <div id="modal4" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span class="title_text_span">40%</span> SCRUM</b>
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="40" max="100">40%</progress>
+              </div>
+            </div>
+          </div>
+          <div class="row2">
+            <div id="modal5" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span class="title_text_span">60%</span> SYSTEMS DESIGN</b>
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="60" max="100">60%</progress>
+              </div>
+            </div>
+            <div id="modal6" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span class="title_text_span">60%</span> PYTHON</b>
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="60" max="100">60%</progress>
+              </div>
+            </div>
+          </div>
+          <div class="row2">
+            <div id="modal7" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span class="title_text_span">10%</span> SQL</b>
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="10" max="100">10%</progress>
+              </div>
+            </div>
+            <div id="modal8" class="item">
+              <div class="title">
+                <h4 class="title_text">
+                  <b><span class="title_text_span">20%</span> HTML, CSS, JS</b>
+                </h4>
+              </div>
+              <div class="progress_bar">
+                <progress value="20" max="100">20%</progress>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

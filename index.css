@@ -1,0 +1,219 @@
+div {
+  border: 0px solid black;
+}
+
+p {
+  font-family: "Comfortaa", cursive;
+}
+
+p.left_desc {
+  padding-right: 20px;
+  color: rgb(128, 128, 128);
+}
+
+h3.left_title {
+  padding-right: 20px;
+  color: rgb(105, 105, 105);
+  font-family: "Comfortaa", cursive;
+}
+
+div.main_container {
+  position: absolute;
+  width: auto;
+  height: 1500px;
+  top: 10%;
+  left: 25%;
+  right: 25%;
+  border: 1px solid black;
+}
+
+div.left_div {
+  width: 30.2%;
+  height: 100%;
+
+  float: left;
+  background-color: rgb(245, 245, 245);
+}
+
+div.right_div {
+  width: 69%;
+  height: 100%;
+
+  float: right;
+}
+
+div.photo {
+  width: auto;
+  height: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo img {
+  border-radius: 50%;
+  max-height: auto;
+  width: 80%;
+  resize: both;
+  border: 3px solid orangered;
+}
+
+.social_network_logo {
+  height: 32px;
+  width: 32px;
+  float: right;
+  margin: 5%;
+  padding-top: 5%;
+}
+
+div.intro_left {
+  width: auto;
+  height: 15%;
+
+  justify-items: left;
+  text-align: end;
+}
+
+div.expertise_left {
+  width: auto;
+  height: 36%;
+
+  justify-items: left;
+  text-align: end;
+}
+
+div.skills_left {
+  width: auto;
+  height: 25%;
+
+  justify-items: left;
+  text-align: end;
+}
+
+div.name {
+  width: auto;
+  height: 16.8%;
+}
+
+div.personal_info {
+  display: flex;
+  width: auto;
+  height: 6%;
+  border-top: 1px solid rgb(121, 115, 115);
+}
+
+div.item_personal_info {
+  width: 25%;
+}
+
+p.text_item_personal_info {
+  font-size: 70%;
+  text-align: center;
+  padding-top: 12%;
+}
+
+span.text_item_personal_info_span {
+  color: gray;
+}
+
+span.title_text_span {
+  color: orangered;
+}
+
+div.intro_right {
+  width: auto;
+  height: 15%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+div.expertise_right {
+  width: auto;
+  height: 36%;
+}
+
+div.row {
+  display: flex;
+  height: 33%;
+  width: auto;
+}
+
+div.row2 {
+  display: flex;
+  height: 24%;
+  width: auto;
+}
+
+div.item {
+  height: auto;
+  width: 100%;
+  margin: 2%;
+  padding: 0;
+}
+
+div.title {
+  margin: 0;
+}
+
+h4 {
+  font-family: "Comfortaa", cursive;
+}
+
+h4.title_text {
+  margin: 0%;
+  color: rgb(105, 105, 105);
+}
+
+p.description_text {
+  margin: 0%;
+  font-size: 14px;
+}
+
+div.skills_right {
+  width: auto;
+  height: 25%;
+}
+
+progress {
+  background: orangered;
+}
+
+progress::-webkit-progress-value {
+  background: orangered;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  margin: 15% auto;
+  padding: 2%;
+  width: 40%;
+  height: 20%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.close {
+  color: gray;
+  float: right;
+  font-size: 32px;
+  margin-top: 0%;
+}
+
+#modal_title {
+  font-family: "Comfortaa", cursive;
+  color: orangered;
+}
+
+#model_text {
+  font-family: "Comfortaa", cursive;
+}
